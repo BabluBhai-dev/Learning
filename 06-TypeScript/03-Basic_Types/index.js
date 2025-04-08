@@ -22,3 +22,6 @@ var userRole;
 })(userRole || (userRole = {}));
 var myRole = userRole.EDITOR;
 console.log(myRole);
+//Any
+var randomValue = 9;
+console.log(randomValue);

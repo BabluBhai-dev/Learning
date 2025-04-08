@@ -30,3 +30,8 @@ enum userRole {
 }
 let myRole:userRole=userRole.EDITOR;
 console.log(myRole);
+
+//Any
+
+let randomValue:any=9;
+console.log(randomValue);
