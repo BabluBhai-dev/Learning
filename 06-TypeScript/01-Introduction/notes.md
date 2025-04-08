@@ -59,3 +59,5 @@ So TypeScript helps you **catch this mistake** before the code runs.
 ✅ **Always used in TypeScript projects**  
 It’s the base of everything — like learning the alphabet before writing sentences.
 
+
+
