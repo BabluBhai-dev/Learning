@@ -1,33 +1,33 @@
 //TypeAnnotation
 
-let age:number =10;
-let name:string ="Arif";
+let age2:number =10;
+let name2:string ="Arif";
 let isCool :boolean=true;
 
-console.log(`${age}${name}${isCool}`);
+console.log(`${age2}${name2}${isCool}`);
 
 //type
 
 type user ={
-    name:string;
-    age:number;
+    name3:string;
+    age3:number;
     isAdmin:boolean;
 };
 let user1:user={
-    name:"Arif",
-    age:25,
+    name3:"Arif",
+    age3:25,
     isAdmin:true,
 };
 
 //Interface
 
 interface Product {
-    name: string;
+    name4: string;
     price: number;
   }
   
   let laptop: Product = {
-    name: "MacBook",
+    name4: "MacBook",
     price: 1200,
   };
 
@@ -38,7 +38,7 @@ interface Product {
   }
   
   const phone: Electronic = {
-    name: "iPhone",
+    name4: "iPhone",
     price: 999,
     warranty: 1,
   };
