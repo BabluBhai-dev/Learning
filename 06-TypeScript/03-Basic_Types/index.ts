@@ -35,3 +35,33 @@ console.log(myRole);
 
 let randomValue:any=9;
 console.log(randomValue);
+
+//Unknown
+
+let userInput :unknown="TypeScript";
+
+if(typeof userInput ==="string"){
+    console.log(userInput.toUpperCase());
+}
+
+//void
+
+function greetUser():void{
+    console.log("Welcome to TypeScript");
+}
+greetUser();
+
+//Null
+
+let middleName: null = null;
+
+//Undefined
+
+let jobTitle: undefined = undefined;
+
+//Never
+
+function throwError(): never {
+    throw new Error("Something went wrong!");
+  }
+  

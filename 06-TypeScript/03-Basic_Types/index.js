@@ -25,3 +25,15 @@ console.log(myRole);
 //Any
 var randomValue = 9;
 console.log(randomValue);
+//Unknown
+var userInput = "TypeScript";
+if (typeof userInput === "string") {
+    console.log(userInput.toUpperCase());
+}
+//void
+function greetUser() {
+    console.log("Welcome to TypeScript");
+}
+greetUser();
+//void
+var middleName = null;
