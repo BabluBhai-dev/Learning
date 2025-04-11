@@ -28,3 +28,12 @@ function greetUser(name: string, age?: number) {
   sayHello(); // Hello Guest
   sayHello("Arif"); // Hello Arif
   
+//Rest Parameters
+
+function sumAll(...numbers: number[]): number {
+    return numbers.reduce((total, num) => total + num, 0);
+  }
+  
+  console.log(sumAll(1, 2, 3)); // 6
+  console.log(sumAll(10, 20, 30, 40)); // 100
+  
