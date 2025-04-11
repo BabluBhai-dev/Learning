@@ -51,3 +51,4 @@ function greetPerson(input: string | number): string {
 
 console.log(greetPerson("Arif")); // Hello Arif
 console.log(greetPerson(25)); // You are 25 years old
+
